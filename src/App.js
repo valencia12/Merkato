@@ -199,7 +199,7 @@ class App extends Component{
           </div>
           <div className="wrap">
             <img className="blanc1" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 18))} alt="merkato"  src={esp}/>
-            <img alt="merkato" />
+            
           </div>
          </div>
         </div>
