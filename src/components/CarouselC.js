@@ -12,10 +12,10 @@ class CarouselC extends React.Component{
    return(
     <Carousel>
       <div>
-         <img/>
+         <img alt="merkato"/>
         </div>
         <div>
-         <img/>
+         <img alt="merkato"/>
         </div>
     </Carousel>
    );
