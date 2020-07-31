@@ -71,7 +71,7 @@ import infuin from './assets/infuin.png';
 import hambur from './assets/hambur.png'
 
 //arrows
-import rigtha from './assets/arrow.png';
+
 import lefta from './assets/back.png';
 
  
@@ -128,7 +128,7 @@ class App extends Component{
      
         <div className="flexible">
 
-         <img className="logo1" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 1))} src={home} alt="merkato"/>
+         <img className="logo1" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 1))} src={home} alt="merkato1"/>
          
          
         </div>
