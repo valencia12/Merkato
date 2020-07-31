@@ -129,7 +129,7 @@ class App extends Component{
         <div className="flexible">
 
          <img className="logo1" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 1))} src={home} alt="merkato"/>
-         <img className="derecha" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 1))} src={rigtha} alt="merkato"/>
+         
          
         </div>
        
