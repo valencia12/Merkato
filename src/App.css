@@ -22,10 +22,16 @@
   background: #fff;
 }
 
+
 .carousel .slide {
   background: #fff;
 }
 
+.logo1{
+  width: 67%;
+  margin-bottom: 85%;
+  margin-left: 20%;
+}
 
 .App-logo {
   height: 40vmin;
@@ -50,7 +56,17 @@
 }
 
 .margin1{
-  margin-top: 1px;
+  margin-top: -15px;
+  width: 43%;
+  margin-left: 23px;
+}
+.wrapparent{
+  margin-top: -116px;
+}
+
+.landing1{
+    margin-top: -199px;
+    width: 373px;
 }
 
 .App-link {
@@ -61,30 +77,59 @@
   display: none;
 }
 
+.sizelogo{
+  max-width: 75%;
+  width: 76%;
+}
+
 .opciones{
   padding: 0px 86px;
   background: white;
+  margin-top: -47%;
   
+}
+.bebidas{
+  margin-top: -39%;
+  width: 96%;
 }
 
 .flex{
-  padding: 63px;
-  margin-top: -15.9%;
-  margin-left: -20px;
+  margin-top: -48.9%;
+  margin-left: 1%;
+}
+
+.postres{
+  width: 73%;
 }
 
 .flex > div{
   margin-left: 1px;
 }
 
+.derecha{
+  width: 8%;
+  height: 3%;
+  margin-top: 74%;
+  margin-left: -3%;
+}
+.backtomenu{
+ 
+  
+}
+.izquierda{
+  width: 8%;
+}
+
+.flexible{
+  display: flex;
+}
 .wrap{
   display: flex;
   padding: 2%;
 }
-.carousel .wi{
-   
-  width: 10px;
-  height: 140px;
+.wi{
+  width: 51%;
+  height: 0%;
 }
 .vi{
   width: 142px;
@@ -96,7 +141,7 @@
   margin-top: -85px;
 }
 .blanc1{
-  height: 135px;
+  height: 1%;
   margin-top: -143px;
 }
 
@@ -113,8 +158,8 @@
 }
 
 .cc{
-  width: 142px;
-  height: 194px;
+  width: 44%;
+    height: 181px;
 }
 
 .menuha{

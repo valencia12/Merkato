@@ -70,6 +70,10 @@ import infuin from './assets/infuin.png';
 //Menu
 import hambur from './assets/hambur.png'
 
+//arrows
+import rigtha from './assets/arrow.png';
+import lefta from './assets/back.png';
+import regresar from './assets/menup.png'
  
 class App extends Component{
   constructor(props){
@@ -101,86 +105,96 @@ class App extends Component{
     
     <Menu>
           <div>
-          <p value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 0))}   className="menu-item" >Home</p><br/><br/> 
-           <p value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 1))}   className="menu-item" >Menú</p><br/><br/>
-           <p value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 11))}   className="menu-item">Bebidas</p><br/><br/>
-           <p value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 23))}  className="menu-item" >Postres</p><br/><br/><br/>
+          <p value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 0))}   className="menu-item" >Home</p>
+           <p value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 1))}   className="menu-item" >Menú</p>
+           <p value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 11))}   className="menu-item">Bebidas</p>
+           <p value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 23))}  className="menu-item" >Postres</p><br/>
            
            </div>
            </Menu>
       <div className="positionhv">
         <img src={hambur} alt="merkato"/>
       </div>
-     <Carousel  value={this.state.value} onChange={this.onChange}
+      <div className="altura">
+     <Carousel    plugins={[
+          'arrows',
+          'clickToChange'
+        ]} value={this.state.value} onChange={this.onChange}
      slides={[
       (<div>1</div>),
       (<div>2</div>)
      ]}
      >
      
-        <div>
-        
-         <img src={home} alt="merkato"/>
+        <div className="flexible">
+
+         <img className="logo1" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 1))} src={home} alt="merkato"/>
+         <img className="derecha" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 1))} src={rigtha} alt="merkato"/>
+         
         </div>
        
        <div>
          <div className="opciones">
-           <img  src={logo} alt="merkato" />
-           <img value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 2))} alt="merkato" src={menu1}/>
-           <img value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 11))} alt="merkato"  src={bebidas}/>
-           <img value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 23))} alt="merkato"  src={pos}/>
+           <img className="sizelogo" src={logo} alt="merkato" />
+           <img className="sizelogo" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 2))} alt="merkato" src={menu1}/>
+           <img className="sizelogo" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 11))} alt="merkato"  src={bebidas}/>
+           <img className="sizelogo" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 23))} alt="merkato"  src={pos}/>
+           
          </div>
         </div>  
        
-       <div >
+       <div className="wrapparent">
           <div className="wrap">
-            <img value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 3))} alt="merkato"  src={tapas}/>
+            <img className="margin1" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 3))} alt="merkato"  src={tapas}/>
             <img className="margin1" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 7))} alt="merkato"  src={pizz}/>
           </div>
           <div className="wrap">
-            <img value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 4))} alt="merkato"  src={crudos}/>
-            <img value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 8))} alt="merkato"  src={panes1}/>
+            <img className="margin1" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 4))} alt="merkato"  src={crudos}/>
+            <img className="margin1" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 8))} alt="merkato"  src={panes1}/>
           </div>
           <div className="wrap"> 
-            <img value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 5))} alt="merkato"  src={sushi}/>
-            <img value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 9))} alt="merkato"  src={tacos}/>
+            <img className="margin1" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 5))} alt="merkato"  src={sushi}/>
+            <img className="margin1" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 9))} alt="merkato"  src={tacos}/>
           </div>
           <div className="wrap"> 
-            <img value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 6))} alt="merkato"  src={ensaladas}/>
-            <img value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 10))} alt="merkato"  src={delacasa}/>
+            <img className="margin1" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 6))} alt="merkato"  src={ensaladas}/>
+            <img className="margin1" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 10))} alt="merkato"  src={delacasa}/>
           </div>
         </div>
 
         <div  className="landing">
-            <img src={tapainfo} alt="merkato" />
+            
+              
+            
+            <img className="landing1" src={tapainfo} alt="merkato" />
         </div>
 
         <div className="landing">
-            <img src={crudosinfo} alt="merkato" />
+            <img className="landing1" src={crudosinfo} alt="merkato" />
         </div>
 
         <div className="landing">
-            <img src={sushinfo} alt="merkato" />
+            <img className="landing1" src={sushinfo} alt="merkato" />
         </div>
 
         <div className="landing">
-            <img src={ensaladasinfo} alt="merkato" />
+            <img className="landing1" src={ensaladasinfo} alt="merkato" />
         </div>
 
         <div className="landing">
-            <img src={pizzainf} alt="merkato" />
+            <img className="landing1" src={pizzainf} alt="merkato" />
         </div>
 
         <div className="landing">
-            <img src={panesinfo} alt="merkato" />
+            <img className="landing1" src={panesinfo} alt="merkato" />
         </div>
 
         <div className="landing">
-            <img src={tacosinfo} alt="merkato" />
+            <img className="landing1" src={tacosinfo} alt="merkato" />
         </div>
 
         <div className="landing">
-            <img src={casainfo} alt="merkato" />
+            <img className="landing1" src={casainfo} alt="merkato" />
         </div>
 
         <div className="flex">
@@ -204,60 +218,60 @@ class App extends Component{
          </div>
         </div>
         <div className="landing">
-          <img src={w1} alt="merkato"  />
-        </div>
-
-        <div>
-        <img src={w2} alt="merkato" /> 
+          <img className="bebidas" src={w1} alt="merkato"  />
         </div>
         <div>
-        <img src={onn1} alt="merkato" /> 
+        <img className="bebidas" src={w2} alt="merkato" /> 
         </div>
         <div>
-        <img src={on11} alt="merkato" /> 
+        <img className="bebidas" src={onn1} alt="merkato" /> 
         </div>
         <div>
-        <img src={on_11} alt="merkato" /> 
+        <img className="bebidas" src={on11} alt="merkato" /> 
         </div>
         <div>
-        <img src={blanc1} alt="merkato" /> 
+        <img className="bebidas" src={on_11} alt="merkato" /> 
         </div>
         <div>
-        <img src={espum} alt="merkato" />
+        <img className="bebidas" src={blanc1} alt="merkato" /> 
         </div>
         <div>
-        <img src={tinto1m} alt="merkato" />
+        <img className="bebidas" src={espum} alt="merkato" />
         </div>
         <div>
-        <img src={cla11} alt="merkato"/> 
+        <img className="bebidas" src={tinto1m} alt="merkato" />
         </div>
         <div>
-        <img src={ll11} alt="merkato"/> 
+        <img className="bebidas" src={cla11} alt="merkato"/> 
         </div>
         <div>
-        <img src={lll11} alt="merkato"/> 
+        <img className="bebidas" src={ll11} alt="merkato"/> 
+        </div>
+        <div>
+        <img className="bebidas" src={lll11} alt="merkato"/> 
         </div>
         <div>
           <div className="opciones">
-          <img value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 24))} alt="merkato" src={sweets}/>
-          <img value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 25))} alt="merkato" src={scoops11}/>
-          <img value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 26))} alt="merkato" src={cafe11}/>
-          <img value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 27))} alt="merkato" src={infusion}/>
+          <img className="postres" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 24))} alt="merkato" src={sweets}/>
+          <img className="postres" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 25))} alt="merkato" src={scoops11}/>
+          <img className="postres" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 26))} alt="merkato" src={cafe11}/>
+          <img className="postres" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 27))} alt="merkato" src={infusion}/>
           </div>
         </div>
         <div> 
-          <img  src={sweetinfor} alt="merkato" />
+          <img  className="bebidas" src={sweetinfor} alt="merkato" />
         </div>
         <div>
-          <img src={soopsin1} alt="merkato" />
+          <img className="bebidas" src={soopsin1} alt="merkato" />
         </div>
         <div>
-          <img src={cafeo1} alt="merkato" />
+          <img className="bebidas" src={cafeo1} alt="merkato" />
         </div>
         <div>
-          <img src={infuin} alt="merkato" />
+          <img className="bebidas" src={infuin} alt="merkato" />
         </div>
      </Carousel>
+     </div>
     </div>
     </div>
    
