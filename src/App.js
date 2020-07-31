@@ -73,7 +73,7 @@ import hambur from './assets/hambur.png'
 //arrows
 import rigtha from './assets/arrow.png';
 import lefta from './assets/back.png';
-import regresar from './assets/menup.png'
+
  
 class App extends Component{
   constructor(props){
@@ -163,37 +163,58 @@ class App extends Component{
         </div>
 
         <div  className="landing">
-            
-              
-            
+          <div className="regresa12">
+            <img className="regresa1" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 2))}  src={lefta}/>
+          </div>
             <img className="landing1" src={tapainfo} alt="merkato" />
         </div>
 
         <div className="landing">
+        <div className="regresa12">
+            <img className="regresa1" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 2))}  src={lefta}/>
+          </div>
             <img className="landing1" src={crudosinfo} alt="merkato" />
         </div>
 
         <div className="landing">
+        <div className="regresa12">
+            <img className="regresa1" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 2))}  src={lefta}/>
+          </div>
             <img className="landing1" src={sushinfo} alt="merkato" />
         </div>
 
         <div className="landing">
+         <div className="regresa12">
+            <img className="regresa1" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 2))}  src={lefta}/>
+          </div>
             <img className="landing1" src={ensaladasinfo} alt="merkato" />
         </div>
 
         <div className="landing">
+          <div className="regresa12">
+            <img className="regresa1" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 2))}  src={lefta}/>
+          </div>
             <img className="landing1" src={pizzainf} alt="merkato" />
         </div>
 
         <div className="landing">
+         <div className="regresa12">
+            <img className="regresa1" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 2))}  src={lefta}/>
+          </div>
             <img className="landing1" src={panesinfo} alt="merkato" />
         </div>
 
         <div className="landing">
+          <div className="regresa12">
+            <img className="regresa1" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 2))}  src={lefta}/>
+          </div>
             <img className="landing1" src={tacosinfo} alt="merkato" />
         </div>
 
         <div className="landing">
+          <div className="regresa12">
+            <img className="regresa1" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 2))}  src={lefta}/>
+          </div>
             <img className="landing1" src={casainfo} alt="merkato" />
         </div>
 
@@ -218,37 +239,70 @@ class App extends Component{
          </div>
         </div>
         <div className="landing">
-          <img className="bebidas" src={w1} alt="merkato"  />
+           <div className="regresa12w">
+            <img className="regresa1" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 11))}  src={lefta}/>
+          </div>
+          <img  className="bebidas" src={w1} alt="merkato" />
         </div>
         <div>
-        <img className="bebidas" src={w2} alt="merkato" /> 
+          <div className="regresa12w">
+            <img className="regresa16" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 11))}  src={lefta}/>
+          </div>
+        <img className="beb" src={w2} alt="merkato" /> 
         </div>
         <div>
-        <img className="bebidas" src={onn1} alt="merkato" /> 
+          <div className="regresa12w">
+            <img className="regresa16" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 11))}  src={lefta}/>
+          </div>
+        <img className="beb" src={onn1} alt="merkato" /> 
         </div>
         <div>
-        <img className="bebidas" src={on11} alt="merkato" /> 
+          <div className="regresa12w">
+            <img className="regresa16" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 11))}  src={lefta}/>
+          </div>
+        <img className="beb" src={on11} alt="merkato" /> 
         </div>
         <div>
-        <img className="bebidas" src={on_11} alt="merkato" /> 
+          <div className="regresa12w">
+            <img className="regresa16" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 11))}  src={lefta}/>
+          </div>
+        <img className="beb" src={on_11} alt="merkato" /> 
         </div>
         <div>
-        <img className="bebidas" src={blanc1} alt="merkato" /> 
+          <div className="regresa12w">
+            <img className="regresa16" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 11))}  src={lefta}/>
+          </div>
+        <img className="beb" src={blanc1} alt="merkato" /> 
         </div>
         <div>
-        <img className="bebidas" src={espum} alt="merkato" />
+          <div className="regresa12w">
+            <img className="regresa16" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 11))}  src={lefta}/>
+          </div>
+        <img className="beb" src={espum} alt="merkato" />
         </div>
         <div>
-        <img className="bebidas" src={tinto1m} alt="merkato" />
+          <div className="regresa12w">
+            <img className="regresa16" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 11))}  src={lefta}/>
+          </div>
+        <img className="beb" src={tinto1m} alt="merkato" />
         </div>
         <div>
-        <img className="bebidas" src={cla11} alt="merkato"/> 
+          <div className="regresa12w">
+            <img className="regresa16" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 11))}  src={lefta}/>
+          </div>
+        <img className="beb" src={cla11} alt="merkato"/> 
         </div>
         <div>
-        <img className="bebidas" src={ll11} alt="merkato"/> 
+           <div className="regresa12w">
+            <img className="regresa16" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 11))}  src={lefta}/>
+          </div>
+        <img className="beb" src={ll11} alt="merkato"/> 
         </div>
         <div>
-        <img className="bebidas" src={lll11} alt="merkato"/> 
+        <div className="regresa12w">
+            <img className="regresa16" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 11))}  src={lefta}/>
+          </div>
+        <img className="beb" src={lll11} alt="merkato"/> 
         </div>
         <div>
           <div className="opciones">
@@ -259,16 +313,28 @@ class App extends Component{
           </div>
         </div>
         <div> 
-          <img  className="bebidas" src={sweetinfor} alt="merkato" />
+         <div className="regresa12w">
+            <img className="regresa16" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 23))}  src={lefta}/>
+          </div>
+          <img  className="beb" src={sweetinfor} alt="merkato" />
         </div>
         <div>
-          <img className="bebidas" src={soopsin1} alt="merkato" />
+          <div className="regresa12w">
+            <img className="regresa16" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 23))}  src={lefta}/>
+          </div>
+          <img className="beb" src={soopsin1} alt="merkato" />
         </div>
         <div>
-          <img className="bebidas" src={cafeo1} alt="merkato" />
+          <div className="regresa12w">
+            <img className="regresa16" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 23))}  src={lefta}/>
+          </div>
+          <img className="beb" src={cafeo1} alt="merkato" />
         </div>
         <div>
-          <img className="bebidas" src={infuin} alt="merkato" />
+          <div className="regresa12w">
+            <img className="regresa16" alt="merkato"  value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 23))}  src={lefta}/>
+          </div>
+          <img className="beb" src={infuin} alt="merkato" />
         </div>
      </Carousel>
      </div>

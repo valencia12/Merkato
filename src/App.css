@@ -65,8 +65,44 @@
 }
 
 .landing1{
-    margin-top: -199px;
-    width: 373px;
+  margin-top: -61px;
+  width: 373px;
+}
+
+.landing{
+  display: flex;
+}
+
+.regresa12{
+  margin-top: -84px;
+  margin-left: 36px;
+}
+
+.regresa1{
+  margin-top: -39%;
+  width: 26px;
+  margin-right: -62px;
+}
+.regresa12w{
+  margin-top: -136px;
+  margin-left: 36px;
+}
+
+.regresar1w{
+  margin-top: -179%;
+  width: 26px;
+  margin-right: -62px;
+}
+
+.regresa16{
+    margin-top: -39%;
+    width: 26px;
+    margin-right: 309px;
+}
+
+.beb{
+    margin-top: -2%;
+    width: 90%;
 }
 
 .App-link {
@@ -89,8 +125,8 @@
   
 }
 .bebidas{
-  margin-top: -39%;
-  width: 96%;
+    margin-top: -26%;
+    width: 90%;
 }
 
 .flex{
@@ -116,6 +152,9 @@
  
   
 }
+
+
+
 .izquierda{
   width: 8%;
 }
