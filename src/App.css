@@ -65,8 +65,8 @@
 }
 
 .landing1{
-  margin-top: -61px;
-  width: 373px;
+    margin-top: -25px;
+    width: 373px;
 }
 
 .landing{
@@ -74,7 +74,7 @@
 }
 
 .regresa12{
-  margin-top: -84px;
+  margin-top: -49px;
   margin-left: 36px;
 }
 
@@ -222,7 +222,43 @@ div{
   
 }
 
+.positionhv{
+  padding: 0px;
+}
 
+
+.bm-cross-button{
+  display: none;
+}
+
+.bm-burger-button{
+   position: absolute !important;
+    left: 6px !important;
+    top: 0px !important;
+    width: 100% !important;
+    height: 5% !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    border: none !important;
+    font-size: 0px !important;
+    background: transparent !important;
+    cursor: pointer !important;
+}
+
+.bm-burger-button > button {
+    position: absolute !important;
+    left: 318px !important;
+    top: 6px !important;
+    width: 9% !important;
+    height: 100% !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    border: none !important;
+    font-size: 0px !important;
+    background: transparent !important;
+    cursor: pointer !important;
+
+}
 
 @keyframes App-logo-spin {
   from {
