@@ -116,7 +116,7 @@
 }
 
 .opciones123{
-  margin-top: -96%;
+  margin-top: -50%;
 }
 
 .volver{
@@ -311,4 +311,22 @@ div{
   }
 }
 
+@media (max-width: 375) {
+  .volver13 {
+    font-size: 31px;
+    margin-bottom: 72px;
+    margin-left: -292px;
+    margin-top: 65px;
+  }
+
+  .opciones123 {
+    margin-top: -130%;
+  }
+}
+
+@media (max-width: 414){
+  .opciones123 {
+    margin-top: -59%;
+}
+}
 
