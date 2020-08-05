@@ -63,6 +63,7 @@ const Ul = styled.ul`
     transition: transform 0.3s ease-in-out;
     z-index: 1;
     opacity: .9;
+    text-align: justify;
     li {
       color: black;
     }
@@ -80,10 +81,16 @@ const Burger = ({ onChangeItem }) => {
         <div />
       </StyledBurger>
       <Ul open={open}>
+        
         <li onClick={() => {
           setOpen(false);
           onChangeItem(0)
         }}>Home</li>
+        <li onClick={() => {
+          setOpen(false);
+          onChangeItem(1)
+        }}
+        >Secciones</li>
         <li onClick={() => {
           setOpen(false);
           onChangeItem(2)

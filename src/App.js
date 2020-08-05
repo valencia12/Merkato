@@ -141,6 +141,9 @@ class App extends Component {
               </div>
 
               <div className="wrapparent">
+                <div>
+                <p className="volver1" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 1))}>←</p>
+                </div>
                 <div className="wrap">
                   <img className="margin1" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 3))} alt="merkato" src={tapas} />
                   <img className="margin1" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 7))} alt="merkato" src={pizz} />
@@ -216,7 +219,9 @@ class App extends Component {
               </div>
 
               <div className="flex">
+                
                 <div>
+                    <p className="volver" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 1))}>←</p>
                   <div className="wrap">
                     <img value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 12))} alt="merkato" className="wi" src={wis} />
                     <img className="vi" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 19))} alt="merkato" src={vin} />
@@ -236,7 +241,7 @@ class App extends Component {
                 </div>
               </div>
               <div className="landing">
-                <div className="regresa12w">
+                <div className="regresa122w">
                   <img className="regresa1" alt="merkato" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 11))} src={lefta} />
                 </div>
                 <img className="bebidas" src={w1} alt="merkato" />
@@ -303,10 +308,13 @@ class App extends Component {
               </div>
               <div>
                 <div className="opciones">
+                  <div className="opciones123">
+                  <p className="volver13" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 1))}>←</p>
                   <img className="postres" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 24))} alt="merkato" src={sweets} />
                   <img className="postres" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 25))} alt="merkato" src={scoops11} />
                   <img className="postres" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 26))} alt="merkato" src={cafe11} />
                   <img className="postres" value={this.state.value} onClick={e => this.onClick(parseInt(e.target.value || 27))} alt="merkato" src={infusion} />
+                  </div>
                 </div>
               </div>
               <div>
