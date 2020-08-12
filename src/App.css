@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .carousel.carousel-slider .control-arrow:hover {
   background: rgb(255 255 255 / 20%);
@@ -14,6 +12,8 @@
   background: white;
 }
 
+
+
 .carousel .slide {
   min-width: 100%;
   margin: 0;
@@ -27,9 +27,9 @@
   background: #fff;
 }
 
-.logo1{
+.logo1 {
   width: 60%;
-  margin-bottom: 29%;
+  margin-bottom: 56%;
   margin-left: 21%;
 }
 
@@ -64,10 +64,7 @@
   margin-top: -1%
 }
 
-.landing1{
-  margin-top: 23px;
-  width: 373px;
-}
+
 
 .landing{
   display: flex;
@@ -115,9 +112,7 @@
 
 }
 
-.opciones123{
-  margin-top: -50%;
-}
+
 
 .volver{
   width: 1%;
@@ -155,12 +150,7 @@
   width: 76%;
 }
 
-.opciones{
-  padding: 0px 97px;
-  background: white;
-  margin-top: -15%;
-  
-}
+
 .bebidas{
     margin-top: 10%;
     width: 90%;
@@ -197,7 +187,7 @@
 }
 
 .flexible{
-  display: flex;
+  margin-bottom: 2100%;
 }
 .wrap{
   display: flex;
@@ -320,7 +310,7 @@ div{
   }
 
   .opciones123 {
-    margin-top: -130%;
+    margin-top: -107%;
   }
 }
 

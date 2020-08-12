@@ -46,6 +46,7 @@ const Ul = styled.ul`
   display: flex;
   flex-flow: row nowrap;
 
+
   li {
     padding: 18px 10px;
   }
@@ -95,10 +96,10 @@ const Burger = ({ onChangeItem }) => {
           setOpen(false);
           onChangeItem(2)
         }}
-        >Menu</li>
+        >Alimentos</li>
         <li onClick={() => {
           setOpen(false);
-          onChangeItem(11)
+          onChangeItem(2)
         }}
         >Bebidas</li>
         <li onClick={() => {

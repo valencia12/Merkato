@@ -1,0 +1,233 @@
+@font-face{
+    font-family: 'champagne limousines';
+    src: url("./font/champagne.ttf"); 
+}
+
+p{
+    font-family: 'champagne limousines';
+    font-weight: bold;
+
+}
+.landingp {
+    margin-top: -292%;
+    margin-left: -34%;
+}
+
+.opciones {
+    padding: 24%;
+    margin-top: 29%;
+}
+
+.tapitas1{
+    max-width: 67%;
+    width: auto;
+    padding-bottom: -15px;
+    margin-bottom: -19%;
+}
+
+.tapitas12{
+    max-width: 67%;
+    width: auto;
+    padding-bottom: -15px;
+    margin-bottom: -9%;
+}
+
+.margintext{
+    margin-right: -42%;
+}
+
+.landingp1{
+    margin-left: -35%;
+}
+
+li{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+ 
+.BrainhubCarouselItem {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.opciones1 {
+    padding: 24%;
+    margin-left: 1%;
+    margin-top: -162%;
+}
+
+.opciones3 {
+    padding: 24%;
+    margin-top: -1157%;
+}
+
+.opciones0 {
+    padding: 24%;
+    margin-top: -897%;
+}
+
+.opciones10 {
+    padding: 24%;
+    margin-top: -1143%;
+}
+
+@media screen and (max-width:360px){
+    @font-face{
+        font-family: 'champagne limousines';
+        src: url("./font/champagne.ttf"); 
+    }
+    
+    p{
+        font-family: 'champagne limousines';
+        font-weight: bold;
+    
+    }
+    .landingp {
+        margin-top: -268%;
+        margin-left: -34%;
+    }
+    
+    .opciones {
+        padding: 24%;
+        margin-top: 29%;
+    }
+    
+    .tapitas1{
+        max-width: 67%;
+        width: auto;
+        padding-bottom: -15px;
+        margin-bottom: -19%;
+    }
+    
+    .tapitas12{
+        max-width: 67%;
+        width: auto;
+        padding-bottom: -15px;
+        margin-bottom: -9%;
+    }
+    
+    .margintext{
+        margin-right: -42%;
+    }
+    
+    .landingp1{
+        margin-left: -35%;
+    }
+    
+    li{
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+     
+    .BrainhubCarouselItem {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .opciones1 {
+        padding: 24%;
+        margin-left: 1%;
+        margin-top: -46%;
+    }
+    
+    .opciones3 {
+        padding: 24%;
+        margin-top: -1157%;
+    }
+    
+    .opciones0 {
+        padding: 24%;
+        margin-top: -871%;
+    }
+    .opciones10 {
+        padding: 24%;
+        margin-top: -1143%;
+    }
+    
+    
+}
+
+@media screen and (max-width:414px){
+    @font-face{
+        font-family: 'champagne limousines';
+        src: url("./font/champagne.ttf"); 
+    }
+    
+    p{
+        font-family: 'champagne limousines';
+        font-weight: bold;
+    
+    }
+    .landingp {
+        margin-top: -658%;
+        margin-left: -34%;
+    }
+    
+    .opciones {
+        padding: 24%;
+        margin-top: 29%;
+    }
+    
+    .tapitas1{
+        max-width: 67%;
+        width: auto;
+        padding-bottom: -15px;
+        margin-bottom: -19%;
+    }
+    
+    .tapitas12{
+        max-width: 67%;
+        width: auto;
+        padding-bottom: -15px;
+        margin-bottom: -9%;
+    }
+    
+    .margintext{
+        margin-right: -42%;
+    }
+    
+    .landingp1{
+        margin-left: -35%;
+    }
+    
+    li{
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+     
+    .BrainhubCarouselItem {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .opciones1 {
+        padding: 24%;
+        margin-left: 1%;
+        margin-top: -478%;
+    }
+    
+    .opciones3 {
+        padding: 24%;
+        margin-top: -1157%;
+    }
+    
+    .opciones0 {
+        padding: 24%;
+        margin-top: -871%;
+    }
+    .opciones10 {
+        padding: 24%;
+        margin-top: -1143%;
+    }
+    
+    
+}
