@@ -1,18 +1,14 @@
-
-
 .carousel.carousel-slider .control-arrow:hover {
   background: rgb(255 255 255 / 20%);
 }
 
-.carousel  {
+.carousel {
   min-width: 100%;
   margin: 0;
   position: relative;
   text-align: center;
   background: white;
 }
-
-
 
 .carousel .slide {
   min-width: 100%;
@@ -21,7 +17,6 @@
   text-align: center;
   background: #fff;
 }
-
 
 .carousel .slide {
   background: #fff;
@@ -55,84 +50,77 @@
   color: white;
 }
 
-.margin1{
+.margin1 {
   margin-top: -15px;
   width: 43%;
   margin-left: 23px;
 }
-.wrapparent{
-  margin-top: -1%
+.wrapparent {
+  margin-top: -1%;
 }
 
-
-
-.landing{
+.landing {
   display: flex;
 }
 
-.regresa12{
+.regresa12 {
   margin-top: -2px;
   margin-left: 36px;
 }
 
-.regresa1{
+.regresa1 {
   margin-top: -39%;
   width: 26px;
   margin-right: -62px;
 }
-.regresa12w{
-
+.regresa12w {
   margin-left: 36px;
 }
 
-.regresa122w{
+.regresa122w {
   margin-left: 36px;
 }
 
-.regresar1w{
+.regresar1w {
   margin-top: -179%;
   width: 26px;
   margin-right: -62px;
 }
 
-.regresa16{
-    margin-top: -39%;
-    width: 26px;
-    margin-right: 309px;
+.regresa16 {
+  margin-top: -39%;
+  width: 26px;
+  margin-right: 309px;
 }
 
-.beb{
-    margin-top: 0%;
-    width: 90%;
+.beb {
+  margin-top: 0%;
+  width: 90%;
 }
 
-.homer{
+.homer {
   width: 4%;
-
-
 }
 
-
-
-.volver{
+.volver {
   width: 1%;
   font-size: 31px;
   margin-bottom: 1px;
 }
 
-.volver1{
+.volver1 {
   font-size: 31px;
   margin-right: 66%;
   margin-top: -35px;
 }
 
-.volver13{
+.volver13 {
   font-size: 31px;
   margin-bottom: 66px;
   margin-left: -292px;
 }
 
-.regrp{
+.regrp {
   margin-top: -13%;
   margin-left: -64%;
 }
@@ -145,151 +133,141 @@
   display: none;
 }
 
-.sizelogo{
+.sizelogo {
   max-width: 75%;
   width: 76%;
 }
 
-
-.bebidas{
-    margin-top: 10%;
-    width: 90%;
+.bebidas {
+  margin-top: 10%;
+  width: 90%;
 }
 
-.flex{
+.flex {
   margin-top: -23%;
   margin-left: 1%;
 }
 
-.postres{
+.postres {
   width: 73%;
 }
 
-.flex > div{
+.flex > div {
   margin-left: 1px;
 }
 
-.derecha{
+.derecha {
   width: 8%;
   height: 3%;
   margin-top: 74%;
   margin-left: -3%;
 }
-.backtomenu{
- 
-  
-}
 
-
-
-.izquierda{
+.izquierda {
   width: 8%;
 }
 
-.flexible{
+.flexible {
   margin-bottom: 2100%;
 }
-.wrap{
+.wrap {
   display: flex;
   padding: 2%;
 }
-.wi{
+.wi {
   width: 51%;
   height: 0%;
   margin-top: -6%;
 }
-.vi{
+.vi {
   width: 142px;
   height: 189px;
 }
 
-.blanc{
+.blanc {
   height: 145px;
   margin-top: -115px;
 }
-.blanc1{
+.blanc1 {
   height: 1%;
   margin-top: -174px;
 }
 
-.lic{
+.lic {
   width: 135px;
   height: 145px;
   margin-top: -44px;
 }
 
-.on{
+.on {
   width: 135px;
   height: 145px;
   margin-top: -69px;
 }
 
-.cc{
+.cc {
   width: 44%;
-    height: 181px;
+  height: 181px;
 }
 
-.menuha{
+.menuha {
   background: white;
 }
 
-
-div{
-  background: white;
-  
-}
-
-.bm-burger-button{
+div {
   background: white;
 }
 
-.positionhv > img{
+.bm-burger-button {
+  background: white;
+}
+
+.positionhv > img {
   width: 31px;
   margin-top: 11px;
   margin-left: 308px;
-  
 }
 
-.positionhv{
+.positionhv {
   padding: 0px;
 }
 
-
-.bm-cross-button{
+.bm-cross-button {
   display: none;
 }
 
-.bm-burger-button{
-   position: absolute !important;
-    left: 6px !important;
-    top: 0px !important;
-    width: 100% !important;
-    height: 5% !important;
-    margin: 0px !important;
-    padding: 0px !important;
-    border: none !important;
-    font-size: 0px !important;
-    background: transparent !important;
-    cursor: pointer !important;
+.bm-burger-button {
+  position: absolute !important;
+  left: 6px !important;
+  top: 0px !important;
+  width: 100% !important;
+  height: 5% !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  border: none !important;
+  font-size: 0px !important;
+  background: transparent !important;
+  cursor: pointer !important;
 }
 
-.BrainhubCarousel__track .BrainhubCarousel__track--transition .BrainhubCarousel__track--draggable{
+.BrainhubCarousel__track
+  .BrainhubCarousel__track--transition
+  .BrainhubCarousel__track--draggable {
   transition-duration: 250ms, 250ms !important;
 }
 
 .bm-burger-button > button {
-    position: absolute !important;
-    left: 318px !important;
-    top: 6px !important;
-    width: 9% !important;
-    height: 100% !important;
-    margin: 0px !important;
-    padding: 0px !important;
-    border: none !important;
-    font-size: 0px !important;
-    background: transparent !important;
-    cursor: pointer !important;
-
+  position: absolute !important;
+  left: 318px !important;
+  top: 6px !important;
+  width: 9% !important;
+  height: 100% !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  border: none !important;
+  font-size: 0px !important;
+  background: transparent !important;
+  cursor: pointer !important;
 }
 
 @keyframes App-logo-spin {
@@ -300,23 +278,3 @@ div{
     transform: rotate(360deg);
   }
 }
-
-@media (max-width: 375) {
-  .volver13 {
-    font-size: 31px;
-    margin-bottom: 72px;
-    margin-left: -292px;
-    margin-top: 65px;
-  }
-
-  .opciones123 {
-    margin-top: -107%;
-  }
-}
-
-@media (max-width: 414){
-  .opciones123 {
-    margin-top: -59%;
-}
-}
-

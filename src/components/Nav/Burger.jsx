@@ -99,12 +99,12 @@ const Burger = ({ onChangeItem }) => {
         >Alimentos</li>
         <li onClick={() => {
           setOpen(false);
-          onChangeItem(2)
+          onChangeItem(3)
         }}
         >Bebidas</li>
         <li onClick={() => {
           setOpen(false);
-          onChangeItem(23)
+          onChangeItem(4)
         }}
         >Postres</li>
       </Ul>
